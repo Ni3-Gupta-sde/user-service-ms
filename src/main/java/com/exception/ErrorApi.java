@@ -9,7 +9,9 @@ import java.time.LocalDateTime;
 @Setter
 @AllArgsConstructor
 public class ErrorApi {
-    private int status;
-    private int meaasage;
+    private Long status;
+    private String message;
     private LocalDateTime localDateTime;
+
+
 }
